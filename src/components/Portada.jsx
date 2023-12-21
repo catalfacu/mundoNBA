@@ -7,10 +7,15 @@ function Portada(props) {
         <Image 
         src= {props.image}
         alt='foto-de-portada'
-        width={100}
-        height={200}
+        width={1440}
+        height={500}
         />
-        <h2>Hola!</h2>
+        <h1>
+          {props.tittle}
+        </h1>
+        <p>
+          {props.description}
+        </p>
     </main>
   )
 }
