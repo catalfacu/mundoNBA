@@ -1,22 +1,22 @@
 import React from 'react'
 import Image  from 'next/image';
+import Link from 'next/link';
 
 function NavBar() {
   return (
-    <nav className='flex justify-between bg-amber-400 text-black p-2'>
+    <nav className='flex justify-between bg-amber-400 text-black p-4'>
         <section className='flex'>
             <Image
                 alt='Logo-Imagen'
                 />
-            <h2>MundoNBA</h2>
+            <Link href='/'>MundoNba</Link>
         </section>
 
         <ul className='flex gap-2'>
-            <li>Noticias</li>
-            <li>Posiciones</li>
-            <li>Equipos</li>
-            <li>Jugadores</li>
-            <li>Mi Perfil</li>
+            <Link href='/News'>Noticias</Link>
+            <Link href='/Positions'>Posiciones</Link>
+            <Link href='/Teams'>Equipos</Link>
+            <Link href='/Players'>Jugadores</Link>
         </ul>
     </nav>
   )
