@@ -4,7 +4,7 @@ import Image from 'next/image';
 function Portada(props) {
   return (
     <main>
-        <Image 
+        <Image
         src= {props.image}
         alt='foto-de-portada'
         width={1440}
