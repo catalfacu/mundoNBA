@@ -9,7 +9,7 @@ function Portada(props) {
         alt='foto-de-portada'
         width={900}
         height={700}
-        className='max-h-96 w-full brightness-50'
+        className='max-h-screen w-full brightness-50'
         />
         <div className='absolute top-1/2 text-center text-9xl text-white tracking-tighter'>
 
