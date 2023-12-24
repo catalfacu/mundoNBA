@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 function NavBar() {
   return (
-    <nav className='flex justify-between bg-amber-400 text-black p-4'>
+    <nav className='flex justify-between bg-amber-400 text-black p-3'>
         <section className='flex'>
             <Image
                 alt='Logo-Imagen'
