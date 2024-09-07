@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div>
       <h1>
-        Mundo Nba
+        Aca empezamos devuelta
       </h1>
     </div>
   )
