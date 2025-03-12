@@ -9,7 +9,7 @@ function NavBar() {
             <Image
                 alt='Logo-Imagen'
                 />
-            <h2>MundoNBA</h2>
+            <Link href={'/'}><h2>MundoNBA</h2></Link>
         </section>
 
         <ul className='flex gap-2'>
