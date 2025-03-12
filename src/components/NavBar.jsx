@@ -1,5 +1,6 @@
 import React from 'react'
 import Image  from 'next/image';
+import Link from 'next/link';
 
 function NavBar() {
   return (
@@ -15,7 +16,7 @@ function NavBar() {
             <li>Noticias</li>
             <li>Posiciones</li>
             <li>Equipos</li>
-            <li>Jugadores</li>
+            <Link href={'/Players'}><li>Jugadores</li></Link>
             <li>Mi Perfil</li>
         </ul>
     </nav>
